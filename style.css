@@ -16,6 +16,12 @@
     text-align: center;
 }
 
+.centered-both {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .button {
     border-radius: 0.5em !important;
     background: var(--primary-color) !important;
@@ -23,6 +29,13 @@
     text-transform: uppercase;
     font-weight: 500 !important;
     line-height: 16px !important;
+}
+
+.divider {
+    width: 50%;
+    height: 1px;
+    background: #555555;
+    margin: 4em auto;
 }
 
 /* Font */
