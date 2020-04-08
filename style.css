@@ -31,6 +31,11 @@
     line-height: 16px !important;
 }
 
+.button:hover {
+    transform: scale(1.1);
+    transition: 0.2s ease-in-out;
+}
+
 .divider {
     width: 50%;
     height: 1px;
@@ -50,7 +55,7 @@ h1, h2 {
 }
 
 h1 {
-    font-size: 96px !important;
+    font-size: 90px !important;
     line-height: 114px !important;
     letter-spacing: -1.5px !important;
 }
@@ -100,6 +105,7 @@ h6 {
         linear-gradient(-90deg, var(--primary-color) 26.6%, var(--secondary-color) 72.21%);
     background-blend-mode: overlay;
     color: #ffffff;
+    margin-bottom: 4em;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -112,7 +118,6 @@ h6 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    min-height: 70vh;
 }
 
 .hero img {
@@ -151,4 +156,5 @@ h6 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 4em;
 }
