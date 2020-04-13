@@ -6,6 +6,13 @@
 }
 
 
+/* General settings */
+
+body {
+    overflow-x: hidden;
+}
+
+
 /* Helper classes */
 
 .full-width {
@@ -42,6 +49,16 @@
     background: #555555;
     margin: 4em auto;
 }
+
+[aos="fade"], [aos="fade-right"], [aos="fade-left"] {
+    opacity: 0;
+    transition-property: opacity;
+}
+  
+[aos="fade"].aos-animate, [aos="fade-right"].aos-animate, [aos="fade-left"].aos-animate {
+    opacity: 1;
+}
+
 
 /* Font */
 
